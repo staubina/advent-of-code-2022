@@ -9,7 +9,7 @@ test = [
 
 def find_marker_in_datastream(datastream):
     marker_pos = 1
-    dif_char_needed = 14
+    dif_char_needed = 14 # Set to 4 for part 1
     processed_datastream = []
     for char in datastream:
         processed_datastream.append(char)
